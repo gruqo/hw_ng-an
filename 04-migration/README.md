@@ -30,3 +30,7 @@
 Проверка доступности ```info.php```:  
 ![Скрин](images/angie_php.png)
 <br>
+
+Дополнитльные проверки:  
+![Скрин](images/test_add.png)
+<br>
