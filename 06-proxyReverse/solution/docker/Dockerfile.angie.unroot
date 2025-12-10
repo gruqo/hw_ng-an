@@ -1,0 +1,10 @@
+FROM docker.angie.software/angie:1.9.1-ubuntu
+
+RUN mkdir -p /usr/share/angie/page_new && \
+    chown -R angie:angie /var/log/angie /var/cache/angie /etc/angie /usr/share/angie&& \
+    mv /etc/angie/http.d/default.conf /etc/angie/http.d/default.origin
+
+USER angie
+
+EXPOSE 80
+CMD ["angie", "-g", "daemon off;"]
