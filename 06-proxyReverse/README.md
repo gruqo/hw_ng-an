@@ -25,3 +25,13 @@
 
 Страница доступна по адресу:  
 http://hw.practicum-demo.space/
+
+<br>
+
+Замена дефолтной темы на Raft (версия: 1.1.10)  
+![Скрин](images/web_01.png)
+
+<br>
+
+Страница + devtool веб-браузера (Mozilla Firefox Developer Edition)  
+![Скрин](images/web+devtool_01.png)
