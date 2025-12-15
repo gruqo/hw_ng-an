@@ -1,12 +1,26 @@
 .idea
 
+/*/incomm
+
+/01-begin
+/02-angie_vs_nginx
 /03-install/solution
 /04-migration/solution
 /05-webServer/solution
 /06-proxyReverse/solution/script
 /06-proxyReverse/solution/commands.txt
+/07-logs
+/08-troubleshooting
 /09-metrics
 /10-optimization/solution
+/11-QA
+/12-TLS
+/13-ACME
 /14-https/solution
+/15-QA_HW
 /16-balancing/solution
+/17-balancer_tcp-udp
+/18-balancer_mail
+/19-media_video
+/20-QA_HW
 /21-protectionDoS/solution
