@@ -52,7 +52,7 @@ HTTP/3 и заголовок HSTS
 Проверки с внешних сервисов.  
 
 [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=hw.practicum-demo.space)  
-![Скрин](images/http_to_https.png)  
+![Скрин](images/ssllabs_01.png)  
 <br>
 
 <h4> Ссылки: </h4>
