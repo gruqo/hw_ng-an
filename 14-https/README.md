@@ -45,13 +45,13 @@ HTTP/2
 ![Скрин](images/http_2.png)  
 <br>
 
-HTTP/3 и заголовок HSTS
+HTTP/3 и заголовок HSTS  
 ![Скрин](images/http_3.png)  
 <br>
 
 Проверки с внешних сервисов.  
 
-[SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=hw.practicum-demo.space)
+[SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=hw.practicum-demo.space)  
 ![Скрин](images/http_to_https.png)  
 <br>
 
