@@ -19,7 +19,16 @@
 /13-ACME
 /14-https/solution
 /15-QA_HW
-/16-balancing/solution
+/16-balancing/solution/*
+16-balancing/solution/src/docker
+16-balancing/solution/src/scripts
+!/16-balancing/solution/src/
+!/16-balancing/solution/src/angie
+/16-balancing/solution/src/angie/conf/*
+!/16-balancing/solution/src/angie/conf/prod_angie-pro.conf
+!/16-balancing/solution/src/angie/conf/virt_servers
+/16-balancing/solution/src/angie/conf/virt_servers/*
+!/16-balancing/solution/src/angie/conf/virt_servers/prod_hw16.conf
 /17-balancer_tcp-udp
 /18-balancer_mail
 /19-media_video

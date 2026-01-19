@@ -35,9 +35,36 @@ DNS:*.practicum-demo.space, DNS:practicum-demo.space
 ```
 <br>
 
+
+```
+Автоматическое получение сертификтов с использованием протокола ACME и ALPN-проверки (было выполнено после проверки)
+
+Получено 2 сертификата: rsa и ecdsa
+
+openssl x509 -signature -issuer -subject -startdate -enddate -ext subjectAltName -noout -in /var/lib/angie/acme/rsa/certificate.pem
+issuer=C = US, O = Let's Encrypt, CN = R13
+subject=CN = hw.practicum-demo.space
+notBefore=Jan 16 15:46:45 2026 GMT
+notAfter=Apr 16 15:46:44 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:hw.practicum-demo.space, DNS:practicum-demo.space
+
+
+openssl x509 -signature -issuer -subject -startdate -enddate -ext subjectAltName -noout -in /var/lib/angie/acme/ecdsa/certificate.pem
+issuer=C = US, O = Let's Encrypt, CN = E7
+subject=CN = hw.practicum-demo.space
+notBefore=Jan 16 15:38:20 2026 GMT
+notAfter=Apr 16 15:38:19 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:hw.practicum-demo.space, DNS:practicum-demo.space
+
+```
+<br>
+
+
 <h3> Проверки: </h3>
 
-Настройка автоматической переадресации с HTTP на HTTPS.  
+Настройка автоматической переадресации с HTTP на HTTPS  
 ![Скрин](images/http_to_https.png)  
 <br>
 
@@ -49,13 +76,14 @@ HTTP/3 и заголовок HSTS
 ![Скрин](images/http_3.png)  
 <br>
 
-Проверки с внешних сервисов.  
+Проверки с внешних сервисов  
 
 [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=hw.practicum-demo.space)  
 ![Скрин](images/ssllabs_01.png)  
 <br>
+<br>
 
-<h4> Ссылки: </h4>
+<h4> Ссылки </h4>
 
 Страница доступна по адресу [hw.practicum-demo.space](https://hw.practicum-demo.space)  
 (комментарий: тип используемой ВМ - прерываемая, возможна недоступность)  
