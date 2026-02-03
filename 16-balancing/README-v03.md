@@ -30,8 +30,8 @@ map "" $balance_switch {
     #default "random_active"; # Random
 }
 ```
-  - запросы поступают на [URL/request](https://practicum-demo.space/request)
-  - для мониторинга используется веб-панель "Console Light", панель доступна по [URL/console](https://hw.practicum-demo.space/console). Для входа используется базовая аутентификация по логину и паролю
+  - запросы поступают на [practicum-demo.space/request](https://practicum-demo.space/request)
+  - для мониторинга используется веб-панель "Console Light", панель доступна по [practicum-demo.space/console](https://hw.practicum-demo.space/console). Для входа используется базовая аутентификация по логину и паролю
   - для балансировки round-robin в случае деактивации всех бэкенд-серверов бэкап-сервер начинает принимать запросы и перестает принимать после активации любого из бэкенд-серверов
   - для балансировки по хешу используется переменная $http_user_agent, сервер бэкап отсутствует
   - для произвольной балансировки сервер бэкап отсутствует
@@ -181,7 +181,7 @@ done
 
 <h3> Ссылки </h3>
 
-| Описание | Адрес |
+| Описание | Ссылка |
 |:---|:---|
 | Отправка запросов | [/request](https://practicum-demo.space/request) |
 | Мониторинг распределения запросов | [/console](https://hw.practicum-demo.space/console) |
